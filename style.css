@@ -1,0 +1,82 @@
+@charset "UTF-8";
+* {
+  outline: none;
+}
+
+body, html {
+  margin: 0;
+  background: #eee;
+  font-family: "Ubuntu", "微軟正黑體", sans-serif;
+  letter-spacing: 0.65px;
+  font-size: 15px;
+  color: #555;
+  cursor: default;
+}
+.container {
+  margin-left: 30px;
+}
+.container-left {
+  margin-left: 20px;
+}
+.contact-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.text-center{
+  color: rgb(91, 91, 234);
+}
+.subtitle {
+  font-size: 17px;
+  text-align: center;
+}
+.text-justify {
+  margin-top: 20px;
+}
+.photo img{
+  height: 195px;
+  /* background-size: contain; */
+  object-fit: cover;
+  /* background-position: center; */
+}
+a {
+  text-decoration: none;
+  color: #267CB9;
+  display: block;
+  transition-duration: 0.3s;
+}
+a:hover{
+  color: #069;
+  font-weight: bold;
+  transform: scale(1.05);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h3 {
+  color: #3d405b;
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.avatar{
+  width: 250px;
+  aspect-ratio: 1/1;
+}
+.pro-img{
+  width: 100%;
+  aspect-ratio: 1/0.8;
+  height: 400px;
+}
+.pro-img--1{
+  aspect-ratio: 1/1.4;
+  height: 700px;
+}
+.pro-img--2 {
+  height: 800px;
+}
+.right{
+  margin-left: 37%;
+}
